@@ -1,12 +1,25 @@
-# React + Vite
+👋 Hey, I’m Khushi.
+Welcome to my little corner of the internet.
+This repository is more than just a portfolio — it’s a snapshot of what I’ve been learning, building, and improving over time. From experimenting with ideas to solving real problems, everything here reflects my growth as a developer.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🧭 What’s Inside
+Instead of listing things in a boring way, here’s how to explore my work:
 
-Currently, two official plugins are available:
+🎓 My Background → Where I studied and what shaped my fundamentals
+🛠️ My Toolkit → The technologies I actually enjoy working with
+🚀 My Projects → Things I built, broke, fixed, and learned from
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎓 Learning Journey
+I come from a background in Computer Science (Data Science), where I built a strong foundation in:
 
-## Expanding the ESLint configuration
+Problem solving
+Logical thinking
+Writing clean and efficient code
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+But honestly, most of my real learning happened while building projects and figuring things out on my own.
+
+
+
+
+
+
