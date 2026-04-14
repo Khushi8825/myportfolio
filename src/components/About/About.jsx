@@ -27,7 +27,7 @@ const About = () => {
             <span className="text-white">I am a </span>
             <Typewriter
               words={[
-                'Frontend Developer',
+                'Software Developer',
                 // 'App Developer',
                 // 'UI/UX Designer',
                 'Coder',

@@ -12,6 +12,7 @@ import tailwindcssLogo from './assets/tailwindcss.png'
 import githubLogo from './assets/github.png'
 import vscodeLogo from './assets/vscode.png'
 import glbitmLogo from './assets/glbajaj-white.png'
+import postgreSQL from './assets/postgreSQL.png'
 
 export const SkillsInfo = [
   {
@@ -29,6 +30,7 @@ export const SkillsInfo = [
     title: 'Backend',
     skills: [
       { name: 'Node JS', logo: nodejsLogo },
+      { name: 'PostgreSQL', logo: postgreSQL},
     ],
   },
   {
