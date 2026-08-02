@@ -26,8 +26,12 @@ const AchievementCard = ({ achievement }) => (
         <TbTrophy className="w-6 h-6 text-white" />
       </div>
       <div className="flex-1">
-        <h3 className="text-lg font-semibold text-white">{achievement.title}</h3>
-        <p className="text-gray-400 text-sm mt-1 leading-relaxed">{achievement.description}</p>
+        <h3 className="text-lg font-semibold text-white">
+          {achievement.title}
+        </h3>
+        <p className="text-gray-400 text-sm mt-1 leading-relaxed">
+          {achievement.description}
+        </p>
         <div className="flex items-center justify-between mt-3">
           <span className="text-xs text-gray-500">{achievement.date}</span>
           {achievement.link && (
@@ -47,7 +51,7 @@ const AchievementCard = ({ achievement }) => (
 );
 
 const CertificationCard = ({ cert }) => {
-  const Icon = cert.logo || FiAward;
+  const Icon = cert.logo;
   return (
     <motion.div
       variants={cardVariants}
@@ -56,10 +60,28 @@ const CertificationCard = ({ cert }) => {
       <div className="h-full rounded-2xl bg-gray-900/70 backdrop-blur-xl p-6 flex flex-col transition-transform duration-500 group-hover:-translate-y-1">
         <div className="flex items-center gap-4 mb-3">
           <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-            <Icon style={{ color: cert.color || "#8245ec" }} className="w-6 h-6" />
+            {cert.img ? (
+              <img
+                src={cert.img}
+                alt={cert.organization}
+                className="w-7 h-7 object-contain"
+              />
+            ) : Icon ? (
+              <Icon
+                style={{ color: cert.color || "#8245ec" }}
+                className="w-6 h-6"
+              />
+            ) : (
+              <FiAward
+                style={{ color: cert.color || "#8245ec" }}
+                className="w-6 h-6"
+              />
+            )}
           </div>
           <div>
-            <h3 className="text-white font-semibold leading-tight">{cert.title}</h3>
+            <h3 className="text-white font-semibold leading-tight">
+              {cert.title}
+            </h3>
             <p className="text-sm text-[#b393ea]">{cert.organization}</p>
           </div>
         </div>
@@ -109,7 +131,9 @@ const Achievements = () => (
     {/* Achievements */}
     {achievements.length > 0 && (
       <div className="mb-16">
-        <h3 className="text-xl font-semibold text-gray-300 mb-6">Achievements</h3>
+        <h3 className="text-xl font-semibold text-gray-300 mb-6">
+          Achievements
+        </h3>
         <motion.div
           className="grid grid-cols-1 sm:grid-cols-2 gap-6"
           variants={containerVariants}
@@ -127,7 +151,9 @@ const Achievements = () => (
     {/* Certifications */}
     {certifications.length > 0 && (
       <div>
-        <h3 className="text-xl font-semibold text-gray-300 mb-6">Certifications</h3>
+        <h3 className="text-xl font-semibold text-gray-300 mb-6">
+          Certifications
+        </h3>
         <motion.div
           className="grid grid-cols-1 sm:grid-cols-2 gap-6"
           variants={containerVariants}

@@ -1,4 +1,5 @@
 import glbitmLogo from './assets/glbajaj-white.png'
+import agentAcademy from './assets/agentAcademy.png'
 
 // ---- Skill logos (react-icons: Simple Icons / Tabler Icons, official colored brand marks) ----
 import {
@@ -21,6 +22,7 @@ import {
   SiJsonwebtokens,
   SiGooglecloud,
   SiAmazonwebservices,
+  SiCisco,
 } from 'react-icons/si';
 import {
   TbSql,
@@ -171,7 +173,7 @@ export const projects = [
     challenges:
       'Keeping room occupancy and tenant data consistent under concurrent bookings meant carefully normalizing the MySQL schema and validating capacity at the database layer. The backend was hardened with Zod schema validation, rate limiting, Helmet.js security headers, and centralized error handling to keep the API production-safe.',
     liveUrl: 'https://homigo-sage.vercel.app/',
-    githubUrl: '',
+    githubUrl: 'https://github.com/khushi8825/Homigo',
     caseStudyUrl: '',
   },
   {
@@ -191,7 +193,7 @@ export const projects = [
     challenges:
       'Building the retrieval pipeline in-house — instead of leaning on a framework like LangChain — required designing sentence-aware chunking and tuning pgvector similarity search for accurate, low-latency retrieval, while strict prompt engineering kept the LLM\'s answers grounded in the source documents rather than hallucinated.',
     liveUrl: 'https://synapse-project-pi.vercel.app/',
-    githubUrl: '',
+    githubUrl: 'https://github.com/khushi8825/Synapse',
     caseStudyUrl: '',
   },
   {
@@ -217,7 +219,6 @@ export const projects = [
 ];
 
 // ---- Certifications (source of truth: resume) ----
-// Add more certificates by pushing another object with this same shape.
 export const certifications = [
   {
     title: 'Generative AI Virtual Internship',
@@ -228,12 +229,28 @@ export const certifications = [
     certificateUrl: 'https://drive.google.com/file/d/1qJP4V-hx_EtpMUnd1xxsw5YD5dsT7s10/view',
   },
   {
+    title: 'Ethical Hacking',
+    organization: 'Cisco Networking Academy',
+    issued: 'Feb 2025',
+    logo: SiCisco,
+    color: '#1BA0D7',
+    certificateUrl: 'https://drive.google.com/file/d/1QjScK0qiuWIoz3_1QXg3J5UdaUeMJDaW/view?pli=1',
+  },
+  {
     title: 'AWS Academy Graduate — Cloud Foundations',
     organization: 'AWS Academy',
     issued: 'March 2026',
     logo: SiAmazonwebservices,
     color: '#FF9900',
     certificateUrl: 'https://drive.google.com/file/d/17l92JI1ToXcoNP0sfKG9kef6k5zN3K72/view',
+  },
+  {
+    title: 'Understanding Agentic AI',
+    organization: 'Agent Academy.ai',
+    issued: 'July 2026',
+    img: agentAcademy,
+    color: '#4285F4',
+    certificateUrl: 'https://drive.google.com/file/d/17ZYnUjrIqjw461gWfAVukIvivsZZuga4/view?usp=drive_link',
   },
 ];
 
@@ -246,5 +263,12 @@ export const achievements = [
       'Led the Editorial Team at Yuktikula Club, managing content creation and publication activities for the club.',
     date: '2025 – 2026',
     link: '',
+  },
+  {
+    title: 'TCS CodeVita Season XIII',
+    description:
+      'Secured global rank of 10108 in TCS CodeVita Season 13.',
+    date: '',
+    link: 'https://drive.google.com/file/d/13BOgCCoOSQEq8WdMFs3VeIodNukfGMG2/view?usp=sharing',
   },
 ];
