@@ -42,7 +42,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            A highly motivated and detail-oriented B.Tech Computer Science (Data Science) student with a strong
+            A highly motivated and detail-oriented B.Tech Computer Science student with a strong
             foundation in C++, Data Structures & Algorithms. Passionate about web development, problem-
             solving, and building innovative applications. Seeking opportunities to contribute technical skills and
             grow as a developer.

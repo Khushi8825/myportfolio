@@ -32,7 +32,9 @@ const Navbar = () => {
   const menuItems = [
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
+    { id: "projects", label: "Projects" },
     { id: "education", label: "Education" },
+    { id: "achievements", label: "Achievements" },
     { id: "contact", label: "Contact" },
   ];
 
@@ -128,7 +130,7 @@ const Navbar = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="" 
+                href="https://www.linkedin.com/in/khushi-ba86ba2b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"

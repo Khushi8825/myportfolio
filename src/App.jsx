@@ -3,6 +3,8 @@ import Navbar from './components/Navbar/Navbar'
 import Education from './components/Education/Education'
 import Skills from './components/Skills/Skills'
 import About from './components/About/About'
+import Projects from './components/Projects/Projects'
+import Achievements from './components/Achievements/Achievements'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import BlurBlob from './BlurBlob'
@@ -20,7 +22,9 @@ function App() {
         <Navbar/>
         <About/>
         <Skills/>
+        <Projects/>
         <Education/>
+        <Achievements/>
         <Contact/>
         <Footer/>
       </div>
