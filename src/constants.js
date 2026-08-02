@@ -254,8 +254,7 @@ export const certifications = [
   },
 ];
 
-// ---- Achievements (source of truth: resume) ----
-// Add more achievements by pushing another object with this same shape.
+// ---- Achievements (source of truth: resume) ---- 
 export const achievements = [
   {
     title: 'Editorial Team Lead, Yuktikula Club',
